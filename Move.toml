@@ -1,0 +1,16 @@
+[package]
+name = "BatchTransactionExecutor"
+version = "1.0.0"
+authors = []
+
+[addresses]
+vasavi_addr ="0xe3c4b8ddb0000d89ae2115e65e2273f8833cfc4d7d6996a8079535d9e790b178"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
